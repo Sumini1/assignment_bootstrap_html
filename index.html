@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saung Katineung</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <script>
+    function tampilkanAlert() {
+      alert("Anda Berhasil Login");
+    }
+  </script>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg py-3 sticky-top">
+    <div class="container nav-item" style="background-color: transparent">
+      <a class="navbar-brand" href="#">
+        <img src="gambar/bootstrap1.jpeg" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="#tentang-kami">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="btn-ab" onclick="tampilkanAlert()">Hubungi Kami</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero slider carousel -->
+  <div id="home" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WELCOME TO SAUNG KATINENG</h6>
+              <h1 class="display-1 fw-bold text-white">
+                Nikmatnya Sejuta Kesan
+              </h1>
+              <a href="#" class="btn btn-brand">Delevery Order</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center bg-cover vh-100 slide-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WELCOME TO SAUNG KATINENG</h6>
+              <h1 class="display-1 fw-bold text-white">
+                Delivery Order dan Gratis Ongkir
+              </h1>
+              <a href="#" class="btn btn-brand">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Tentang Kami -->
+  <section id="tentang-kami">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5">
+          <img src="gambar/Saung-Sunda-Bengkong.gif" alt="" />
+        </div>
+        <div class="col-lg-5">
+          <h1 class="text-4">Tentang Kami</h1>
+          <div class="divider my-2"></div>
+          <p class="paragraf-1">
+            Ingin makan dengan suasana yang nyaman, bersih, rapi, dan harganya
+            murah? Yuk coba datang ke Restoran Kisanak, di sana ada banyak
+            varian menu makanan yang enak, lezat dengan harga yang terjangkau.
+            Yuk datang sekarang juga!
+          </p>
+          <p class="paragraf-1">
+            Dengan pembelian minimal Rp 75.000 kamu udah bisa dapetin Free
+            Ongkir se Jabodetabek, Karawang dan juga Bandung*.
+          </p>
+          <a href="#" class="btn btn-brand">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="bg-light">
+    <div class="container">
+      <div class="col-12 intro-text">
+        <h1 class="text-4">Explore Our Menu</h1>
+        <p class="paragraf">
+          Makanan akan terasa lezat apabila dinikmati bersama orang-orang
+          terdekat dan tersayang. Dan hari ini, makananku pasti akan terasa
+          paling lezat karena aku dikelilingi orang-orang yang aku cinta.
+          Selamat menikmati makanan, semua.
+        </p>
+      </div>
+    </div>
+
+    <!-- nav and tabs -->
+    <div class="container">
+      <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+            type="button" role="tab" aria-controls="pills-all" aria-selected="true">
+            All Items
+          </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-sarapan-tab" data-bs-toggle="pill" data-bs-target="#pills-sarapan"
+            type="button" role="tab" aria-controls="pills-sarapan" aria-selected="true">
+            Jajanan Pasar
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+            type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">
+            Favorit
+          </button>
+        </li>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+          tabindex="0">
+
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/menu3.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Bandros</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 14.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/menu1.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Putri No'ong</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 17.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/menu2.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Sorabi</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 10.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/menu4.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Cilok Kacang</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 15.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/Nasiliwetpanci.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Nasi Liwet Panci</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 45.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/nasi-liwet2.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Nasi Liwet Boboko</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 60.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/liwetdaun.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Nasi Liwet Daun</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 55.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/liwetboboko.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Nasi Liwet Boboko-2</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 50.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/baru1.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Karedok</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 13.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/baru2.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Soto Sunda</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 20.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/baru3.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Cireng</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 15.000;</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item .shadow-on-hover bg-white">
+                <img src="gambar/baru4.jpeg" alt="">
+                <div class="menu-item-content p-3 mb-3">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div class="my-3">
+                  <h5 class="mt-1 mb-2">Basreeng</h5>
+                  <p class="small">Makanan tradisional legendaris</p>
+                  <a href="#" class="btn btn-a">Rp 15.000;</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show" id="pills-sarapan" role="tabpanel" aria-labelledby="pills-sarapan-tab"
+            tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/menu3.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Bandros</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 14.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/menu1.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Putri No'ong</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 17.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/menu2.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Sorabi</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 10.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/menu4.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Cilok Kacang</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 15.000;</a>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+            tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/baru4.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Basreng</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 14.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/baru3.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Cireng</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 17.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/baru2.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Soto Sunda</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 10.000;</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item .shadow-on-hover bg-white">
+                  <img src="gambar/baru1.jpeg" alt="">
+                  <div class="menu-item-content p-3 mb-3">
+                    <div>
+                      <span>Rated(5.4)</span>
+                      <span class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div class="my-3">
+                    <h5 class="mt-1 mb-2">Karedok</h5>
+                    <p class="small">Makanan tradisional legendaris</p>
+                    <a href="#" class="btn btn-a">Rp 15.000;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-white-1">Kenapa Memilih Kita ?</h1>
+          <p class="text-white-a">
+            Makanan akan terasa lezat apabila dinikmati bersama orang-orang
+            terdekat dan tersayang. Serta Apabila makan di sini semua terpenuhi. Makanya harus coba.
+          </p>
+          <br>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-wifi-fill"></i>
+            </div>
+            <h4 class="text-white--1 mt-4 mb-2">Free Wifi</h4>
+            <p class="text-white--1">Bekerja Bisa Jadi Menyenangkan</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-timer-2-fill"></i>
+            </div>
+            <h4 class="text-white--1 mt-4 mb-2">Fast Delivery</h4>
+            <p class="text-white--1">Tinggal tunggu saja di rumah, makanan akan segera datang</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-user-5-fill"></i>
+            </div>
+            <h4 class="text-white--1 mt-4 mb-2">Pegawai yang Ramah</h4>
+            <p class="text-white--1">Pesan makanan tersa nikmat dan senang hati</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-shield-star-fill"></i>
+            </div>
+            <h4 class="text-white--1 mt-4 mb-2">Kualitas Terbaik</h4>
+            <p class="text-white--1">Sudah dijamin Kualitasnya</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Cabang -->
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-white-2">Saung Katineng Cabang</h1>
+          <p class="text-white-3">Sekarang bisa menikmati maenu kami diberbagai cabang yang ada di Indonesia, Wajib
+            mencobanya yaa</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-cabang px-4 py-5 shadow-on-hover text-center">
+            <img src="gambar/bandung.jpeg" alt="">
+            <div class="team-content-cabang">
+              <h4 class="text"> BANDUNG </h4>
+              <p class="mb-0">Kota Kenangan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-cabang px-4 py-5 shadow-on-hover text-center">
+            <img src="gambar/jakarta.png" alt="">
+            <div class="team-content-cabang">
+              <h4 class="text"> JAKARTA </h4>
+              <p class="mb-0">Kota Metropolitan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-cabang px-4 py-5 shadow-on-hover text-center">
+            <img src="gambar/bekasi.jpeg" alt="">
+            <div class="team-content-cabang">
+              <h4 class="text"> SURABAYA </h4>
+              <p class="mb-0">Kota Pahlawan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-cabang px-4 py-5 shadow-on-hover text-center">
+            <img src="gambar/tangerang.jpeg" alt="">
+            <div class="team-content-cabang">
+              <h4 class="text"> BEKASI </h4>
+              <p class="mb-0">Kota Terpadat</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Komentar -->
+  <section id="reviews" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-white-1">Kata Pelanggan</h1>
+          <p class="text-white-a mb-4">Menunya enak-enak dan ramah di kantong</p>
+        </div>
+      </div>
+      <div id="reviewSlider" class="carousel slide">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white p-5 text-center">
+                  <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                  <p class="mb-0 stars">Jangan sampai terlewat yaa, wajib untuk mencobanya</p>
+                  <div class="person mt-5">
+                    <img src="gambar/anak2.webp" alt="">
+                    <h4 class="nama">Aisyah</h4>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white p-5 text-center">
+                  <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                  <p class="mb-0 stars">Kalau di jalan nemu kami, jangan lupa mampir yaa</p>
+                  <div class="person mt-5">
+                    <img src="gambar/aanak1.png" alt="">
+                    <h4 class="nama">Yusuf</h4>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insta Post -->
+  <div class="row g-2 p-2">
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="gambar/menu2.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="gambar/tumpeng1.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="gambar/menu4.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="gambar/baru4.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog -->
+  <section id="contact">
+    <div class="wrapper">
+      <div class="footer">
+        <div class="footer-section">
+          <h3>Saung Katineng</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam, blanditiis accusamus placeat
+            suscipit cum!</p>
+        </div>
+        <div class="footer-section">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam, blanditiis accusamus placeat
+            suscipit cum!</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Jalan Unkris, Kelurahan Jaticemppaka, Kecamatan Pondokgede, Kota Bekasi</p>
+        </div>
+        <div class="footer-section">
+          <h3>Social</h3>
+          <p><b>YouTube: </b> Rumah Makan Saung Katineng</p>
+        </div>
+      </div>
+    </div><br><br>
+  </section><br>
+
+  <!-- copy right -->
+  <section id="copyright">
+    <div class="wrapper">
+      &copy; 2023. <b>Saung Katineng</b> All Right Reserved.
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Spline+Sans+Mono:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Italianno&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Spline+Sans+Mono:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comic+Neue:wght@300;400&family=Italianno&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Spline+Sans+Mono:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.nav-item {
+  background-color: transparent;
+  color: olivedrab;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.navbar.sticky-top {
+  position: sticky;
+  top: 0;
+  /* Atur tinggi (biasanya 0) sesuai kebutuhan Anda */
+  background-color: rgba(219,
+      208,
+      208,
+      0.866);
+  /* Sesuaikan dengan warna latar belakang navbar Anda */
+  z-index: 100;
+  /* Atur indeks z sesuai kebutuhan */
+}
+
+body {
+  font-family: spline sans, sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+img {
+  min-width: 100%;
+}
+
+.navbar-nav {
+  color: #f58d17;
+}
+
+/* Btn */
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+}
+.btn-ab {
+  border-radius: 10px;
+  background-color: olivedrab;
+  color: #ffffff;
+  border: none;
+  margin: 20px;
+  font-size: 18px;
+  font-family: spline sans,
+    sans-serif;
+    height: 50px;
+    width: 15%;
+}
+
+.btn-brand {
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: olivedrab;
+  color: white;
+}
+
+.btn-brand:hover {
+  border-color: #7e5a36;
+  background-color: olive;
+  color: #fff;
+}
+
+h1 {
+  font-family: italianno;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.shadow-on-hover {
+  transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Slider */
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(gambar/tumpeng1.jpeg);
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(gambar/Nasiliwetpanci.jpeg);
+}
+
+#home h6::after,
+#home h6::before {
+  content: " ";
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(206, 173, 173, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/* Tentang Kami */
+#tentang-kami .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: olivedrab;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.paragraf-1 {
+  font-family: comic Neue;
+}
+
+/* Intro text */
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-text {
+  max-width: 500px;
+  margin: auto;
+}
+
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+
+
+/* Menu */
+
+#menu .nav-pills .nav-link {
+  background-color: #ffff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  font-size: 15px;
+  padding-top: 10px;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.paragraf {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+#menu .nav-pills .nav-link.active {
+  background-color: olivedrab;
+  color: white;
+}
+
+.text-4 {
+  font-family: Italianno;
+  color: olivedrab;
+  font-weight: 800;
+}
+
+.btn-a {
+  background-color: olivedrab;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 5px;
+  padding: 5px;
+}
+
+.paragraf,
+.small {
+  font-family: comic Neue;
+  color: #222;
+  font-weight: 700;
+}
+
+.small {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.paragraf {
+  padding-top: 10px;
+}
+
+.menu-item .stars {
+  color: olivedrab;
+}
+
+/* Features */
+#features {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(gambar/baru3.jpeg);
+}
+
+.text-white-1 {
+  font-family: Italianno;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.text-white--1 {
+  font-family: comic Neue;
+  color: #ffffff;
+
+}
+
+.text-white-a {
+  font-family: comic Neue;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.feature {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+  width: 80px;
+  height: 80px;
+  background-color: olivedrab;
+  color: white;
+  font-size: 28px;
+  display: inline-grid;
+  align-content: center;
+  text-align: center;
+}
+
+/* Cabang */
+.text-white-3 {
+  font-family: comic Neue;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.text-white-2 {
+  font-family: Italianno;
+  color: olivedrab;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.team-cabang img {
+  max-width: 140px;
+  box-shadow: -10px -10px 0 olivedrab;
+}
+
+.text {
+  font-family: comic Neue;
+  color: olivedrab;
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.mb-0 {
+  font-family: comic Neue;
+  color: #222;
+  font-weight: 700;
+}
+
+/* Reviews */
+#reviews {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(gambar/jakarta.png);
+}
+
+.review img {
+  min-width: 70px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.mb-0 {
+  color: olivedrab;
+}
+
+.nama {
+  color: olivedrab;
+  font-family: comic Neue;
+  font-weight: 800;
+}
+
+.stars,
+.quote-icon {
+  color: olivedrab;
+  font-family: comic Neue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#reviews .carousel-indicators {
+  margin-bottom: -3rem;
+}
+
+/* Reservation */
+#reservation {
+  background-color: pink;
+}
+#reservation .form-control {
+  border-radius: 1;
+}
+
+#reservation .form-control:focus {
+  box-shadow: none;
+  border-color: olivedrab;
+}
+
+#reservation .input-form-control {
+  height: 47px;
+}
+
+/* Insta-post */
+.insta-posts {
+  position: relative;
+  overflow: hidden;
+}
+
+.insta-posts .insta-btn {
+  width: 90px;
+  height: 90px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.insta-posts img {
+  transition: all 0.4s;
+}
+
+.insta-posts:hover img {
+  transform: scale(1.2);
+}
+.insta-posts:hover .insta-btn {
+  opacity: 1;
+}
+
+/* blog */
+#contact {
+  background: #dedede;
+  padding: 40px 0px 50px 0px;
+
+}
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+h3 {
+  font-family: comic Neue;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: olivedrab;
+  width: 100%;
+  line-height: 50px;
+}
+
+/* copyright */
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 20px 10px 20px 0px;
+  margin-top: 50px;
+  color: olivedrab;
+}
+
